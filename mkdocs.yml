@@ -1,6 +1,6 @@
 site_name: Pavi Docs
 site_description: Docs-as-Code starter with MkDocs Material
-site_url: https://example.com
+site_url: https://clpavi.github.io/docs-as-code-starter/
 theme:
   name: material
   language: ko
