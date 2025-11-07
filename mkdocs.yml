@@ -1,0 +1,40 @@
+site_name: Pavi Docs
+site_description: Docs-as-Code starter with MkDocs Material
+site_url: https://example.com
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+nav:
+  - 시작하기: index.md
+  - Concepts:
+    - Docs-as-Code 개요: concepts/overview.md
+  - How-to:
+    - Hello Docs-as-Code 튜토리얼: how-to/hello-tutorial.md
+  - Troubleshooting:
+    - 자주 만나는 문제: troubleshooting/common-issues.md
+  - Style Guide:
+    - 용어집 & 스타일: style-guide/glossary.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.highlight
+plugins:
+  - search

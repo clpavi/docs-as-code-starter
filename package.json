@@ -1,0 +1,13 @@
+{
+  "name": "docs-as-code-starter",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.13.0"
+  },
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"!site/**\"",
+    "serve": "mkdocs serve -a 0.0.0.0:8000",
+    "build": "mkdocs build --strict"
+  }
+}
