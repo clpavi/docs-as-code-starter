@@ -1,7 +1,13 @@
 # 👋 환영합니다
 
 이 사이트는 **Docs-as-Code** 파이프라인 예시입니다.  
-왼쪽 사이드바의 **How-to ▸ Hello Docs-as-Code 튜토리얼**을 따라 하시면 바로 배포까지 경험하실 수 있습니다.
+왼쪽 사이드바의 문서를 이용하시거나, 아래 바로가기를 클릭하세요.
+
+## 빠른 바로가기
+- [How-to ▸ Hello Docs-as-Code 튜토리얼](how-to/hello-tutorial/)
+- [Concepts ▸ Docs-as-Code 개요](concepts/overview/)
+- [Troubleshooting ▸ 자주 만나는 문제](troubleshooting/common-issues.md)
+- [Style Guide ▸ 용어집 & 스타일](style-guide/glossary.md)
 
 !!! tip "무엇이 들어있나요?"
     - MkDocs(Material) 기반 정적 문서 사이트
